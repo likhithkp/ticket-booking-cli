@@ -88,6 +88,8 @@ func bookTicket(tickets uint, firstName string, lastName string, email string, u
 	userData["bookedTickets"] = strconv.FormatUint(uint64(userTickets), 10)
 
 	bookings = append(bookings, userData)
+	fmt.Printf("Here is your detals printed on your ticket %v\n", bookings)
+
 	fmt.Printf("Thank you %v %v for booking %v tickets, you will receive the tickets on your email %v\n", firstName, lastName, userTickets, email)
 	fmt.Printf("%v remaining out of %v\n", remainingTickets, tickets)
 }
