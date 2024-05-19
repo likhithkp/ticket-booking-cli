@@ -1,3 +1,29 @@
-## Simple ticket booking cli code
+# Ticket Booking CLI
 
-Allows users to book tickets by their name,email and number of tickets to travel with validations
+This command-line interface (CLI) application allows users to book tickets for an event by providing their first name, last name, email address, and the number of tickets they wish to book. The application provides real-time feedback on the remaining tickets available and maintains a list of users who have successfully booked tickets.
+
+## Features
+- **User Input**: Users are prompted to enter their first name, last name, email address, and the number of tickets they wish to book.
+- **Input Validation**: The application validates user input to ensure the correctness of entered data. It checks for valid email format and ensures that the number of tickets requested is within the available range.
+- **Remaining Tickets**: After each successful booking, the application displays the number of remaining tickets available for the event.
+- **User List**: The application maintains a list of users who have successfully booked tickets. It displays this list along with the first names of the users.
+
+## How to Use
+1. Clone the repository to your local machine.
+2. Navigate to the directory containing the `main.go` file.
+3. Run the command `go run main.go` to start the application.
+4. Follow the on-screen prompts to book tickets for the event.
+
+## Example
+Welcome to the Ticket Booking CLI!
+
+Please enter your first name: John
+Please enter your last name: Doe
+Enter your email: john@example.com
+Enter the number of tickets: 2
+
+Thank you, John Doe, for booking 2 tickets. You will receive the tickets on your email john@example.com.
+
+Remaining tickets: 48
+
+Travelers list: John
