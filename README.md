@@ -11,7 +11,7 @@ This command-line interface (CLI) application allows users to book tickets for a
 ## How to Use
 1. Clone the repository to your local machine.
 2. Navigate to the directory containing the `main.go` file.
-3. Run the command `go run main.go` to start the application.
+3. Run the command `go run .` to start the application.
 4. Follow the on-screen prompts to book tickets for the event.
 
 ## Example
