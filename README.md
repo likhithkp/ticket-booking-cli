@@ -16,15 +16,15 @@ This command-line interface (CLI) application allows users to book tickets for a
 4. Follow the on-screen prompts to book tickets for the event.
 
 ## Example
-- **Welcome to Tomorrow land booking application**
+- Welcome to Tomorrow land booking application
 - 50 tickets remaining out of 50
-- **Please enter your first name:**
+- Please enter your first name:
 * John
-- **Please enter your last name:**
+- Please enter your last name:
 * Melony
-- **Enter your email:**
+- Enter your email:
 * Melony@gmail
-- **Enter the number of tickets:**
+- Enter the number of tickets:
 * 12
 - Here is your detals printed on your ticket [{John Melony Melony@gmail 12}]
 - Thank you John Melony for booking 12 tickets, you will receive the tickets on your email Melony@gmail
