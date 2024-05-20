@@ -7,6 +7,7 @@ This command-line interface (CLI) application allows users to book tickets for a
 - **Input Validation**: The application validates user input to ensure the correctness of entered data. It checks for valid email format and ensures that the number of tickets requested is within the available range.
 - **Remaining Tickets**: After each successful booking, the application displays the number of remaining tickets available for the event.
 - **User List**: The application maintains a list of users who have successfully booked tickets. It displays this list along with the first names of the users.
+- **Ticket Generation**: Simulates ticket generation using goroutines to handle the process asynchronously.
 
 ## How to Use
 1. Clone the repository to your local machine.
@@ -15,15 +16,22 @@ This command-line interface (CLI) application allows users to book tickets for a
 4. Follow the on-screen prompts to book tickets for the event.
 
 ## Example
-Welcome to the Ticket Booking CLI!
-
-Please enter your first name: John
-Please enter your last name: Doe
-Enter your email: john@example.com
-Enter the number of tickets: 2
-
-Thank you, John Doe, for booking 2 tickets. You will receive the tickets on your email john@example.com.
-
-Remaining tickets: 48
-
-Travelers list: John
+Welcome to Tomorrow land booking application
+50 tickets remaining out of 50
+Please enter your first name:
+John
+Please enter your last name:
+Melony
+Enter your email:
+Melony@gmail
+Enter the number of tickets:
+12
+Here is your detals printed on your ticket [{John Melony Melony@gmail 12}]
+Thank you John Melony for booking 12 tickets, you will receive the tickets on your email Melony@gmail
+38 remaining out of 50
+Travelers list: [John]
+---------------------
+Sending ticket
+ Hello John here is your ticket, John, Melony, Melony@gmail, 12
+ to Melony@gmail
+---------------------
